@@ -40,3 +40,16 @@ else
     warn("Failed to load data:", result) -- result is the error message
 end
 auscess for acesss 
+local DataStoreService = game:GetService("DataStoreService")
+local myDataStore = DataStoreService:GetDataStore("PlayerXP")
+
+-- Wrap in pcall to handle potential API downtime
+local success, result = pcall(function()
+    return myDataStore:GetAsync("User_12345")
+end)
+
+if success then
+    print("Data loaded:", result)
+else
+    warn("Failed to load data:", result) -- result is the error message
+end
