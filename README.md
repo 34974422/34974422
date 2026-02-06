@@ -1,16 +1,42 @@
-## Hi there 👋
+404 (Not found
+local DataStoreService = game:GetService("DataStoreService")
+local myDataStore = DataStoreService:GetDataStore("PlayerXP")
 
-<!--
-**34974422/34974422** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+-- Wrap in pcall to handle potential API downtime
+local success, result = pcall(function()
+    return myDataStore:GetAsync("User_12345")
+end)
 
-Here are some ideas to get you started:
+if success then
+    print("Data loaded:", result)
+else
+    warn("Failed to load data:", result) -- result is the error message
+end
+end--- result as a error message 203---21
+good--- result as  error 
+local DataStoreService = game:GetService("DataStoreService")
+local myDataStore = DataStoreService:GetDataStore("PlayerXP")
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+-- Wrap in pcall to handle potential API downtime
+local success, result = pcall(function()
+    return myDataStore:GetAsync("User_12345")
+end)
+
+if success then
+    print("Data loaded:", result)
+else
+    warn("Failed to load data:", result) -- result is the error message
+    end of shift local DataStoreService = game:GetService("DataStoreService")
+local myDataStore = DataStoreService:GetDataStore("PlayerXP")
+
+-- Wrap in pcall to handle potential API downtime
+local success, result = pcall(function()
+    return myDataStore:GetAsync("User_12345")
+end)
+
+if success then
+    print("Data loaded:", result)
+else
+    warn("Failed to load data:", result) -- result is the error message
+end
+auscess for acesss 
