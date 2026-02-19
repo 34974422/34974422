@@ -1,0 +1,37 @@
+404 (Not found
+local DataStoreService = game:GetService("DataStoreService")
+local myDataStore = DataStoreService:GetDataStore("PlayerXP")
+
+-- Wrap in pcall to handle potential API downtime
+local success, result = pcall(function()
+    return myDataStore:GetAsync("User_12345")
+end)
+
+if success then
+    print("Data loaded:", result)
+else
+    warn("Failed to load data:", result) -- result is the error message
+end
+end--- result as a error message 203---21
+good--- result as  error 
+local DataStoreService = game:GetService("DataStoreService")
+local myDataStore = DataSto
+
+                       
+                              local DataStoreService = game:GetService("DataStoreService")
+local myDataStore = DataStoreService:GetDataStore("PlayerXP")    
+    e = game:GetService("DataStoreService"81
+    8932.32
+    e = game:GetService("DataStoreService")
+    892 game  GetService("DataStoreService")
+             892 game  GetService("DataStoreService")
+                          GetService
+e("DataStoreService")
+
+error  e("DataStoreService") data hack 5.64am .22.93  
+error  e("DataStoreService") data hack 5.64am .22.93  
+error  e("DataStoreService") data hack 5.64am .22.93  
+error  e("DataStoreService") data hack 5.64am .22.93  
+    
+ 
+                          
